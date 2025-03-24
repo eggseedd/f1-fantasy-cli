@@ -40,6 +40,10 @@ python main.py
 - `engines`: Stores engine manufacturers
 - `team_principals`: Stores team principals
 
+## 🛠️ Areas for Enhancement
+🔄 Enhance team update handling for better experience <br>
+⚠️ Handle duplicate team names when updating team to prevent conflicts <br>
+🕵️‍♂️ Investigate why only drivers entity trigger an error when re-entering existing values <br>
 
 ## For ITS Software Engineering Lab Admins
 
