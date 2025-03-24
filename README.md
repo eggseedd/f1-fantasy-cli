@@ -45,7 +45,7 @@ python main.py
 
 ### 1️⃣ Alasan dan Justifikasi Pemilihan Database
 #### -Dibutuhkan ACID compliance karena ada beberapa tabel atau entitas yang harus memiliki ketetapan data.
-dibutuhkan ACID compliance, yang memastikan ketepatan dan integritas data antar tabel. Tabel seperti `drivers`, `engines`, dan `team_principals` berisi data tetap yang tidak dapat diubah oleh pengguna. Saat pengguna melakukan operasi CRUD, rollback akan dilakukan jika terjadi error, sehingga hubungan antar tabel tetap terjaga dan tidak ada data yang rusak atau inkonsisten.
+Dibutuhkan ACID compliance, yang memastikan ketepatan dan integritas data antar tabel. Tabel seperti `drivers`, `engines`, dan `team_principals` berisi data tetap yang tidak dapat diubah oleh pengguna. Saat pengguna melakukan operasi CRUD, rollback akan dilakukan jika terjadi error, sehingga hubungan antar tabel tetap terjaga dan tidak ada data yang rusak atau inkonsisten.
 #### -Query yang dijalankan cukup sederhana dan masih memiliki runtime yang cepat
 Query yang digunakan hanya menggunakan operasi dasar seperti SELECT, WHERE, JOIN, dan lain-lain, sehingga tetap efisien. Dengan struktur database yang sederhana dan jumlah data yang relatif, SQL masih mampu menangani eksekusi query dengan runtime yang cepat.
 #### -Data yang digunakan tidak bersifat dinamis.
