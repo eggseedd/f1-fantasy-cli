@@ -41,7 +41,7 @@ python main.py
 - `team_principals`: Stores team principals
 
 
-## For ITS Software Engineering Lab Admin 
+## For ITS Software Engineering Lab Admins
 
 ### 1️⃣ Alasan dan Justifikasi Pemilihan Database
 #### -Dibutuhkan ACID compliance karena ada beberapa tabel atau entitas yang harus memiliki ketetapan data.
